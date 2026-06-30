@@ -2,3 +2,13 @@
 node_modules
 .DS_Store
 *.log
+
+# local dev / un-bundling artifacts (not part of the site)
+package.json
+package-lock.json
+_*.mjs
+_*.png
+_shot_*.png
+_seg_*.png
+_verify_*.png
+tpl_decoded.txt
